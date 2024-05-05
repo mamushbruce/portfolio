@@ -1480,6 +1480,11 @@ body.light hr.separator {
 
 @media (max-width: 991px) {
 
+  .icon-menu {
+    display: none;
+    visibility: hidden;
+  }
+
   body.home {
     padding: 25px;
   }

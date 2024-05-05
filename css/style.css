@@ -1479,6 +1479,15 @@ body.light hr.separator {
 /* Mobile  Navigation */
 
 @media (max-width: 991px) {
+  .home-container {
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70vw;
+  }
+
+  .home .home-details {
+    padding: 0;
+    height: 380px;
 
   .icon-menu {
     display: none;
@@ -1735,12 +1744,21 @@ body.light hr.separator {
   .contact .main-content {
     padding-bottom: 0;
   }
+
+  /* more stuff */
+
+  .home-container {
+    justify-content: space-between;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 767px) {
   .home .home-details p {
     font-size: 14px;
     line-height: 28px;
+    height: 100px;
+    width: 340px;
   }
 }
 

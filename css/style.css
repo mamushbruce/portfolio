@@ -240,6 +240,25 @@ body.light hr.separator {
 }
 
 @media (max-width: 991px) {
+  .button {
+    position: absolute;
+    top: 158px;
+  }
+
+  .home .home-details p {
+    margin: 10px 0 23px;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+  }
+
+  .bg {
+    position: absolute;
+    z-index: -111;
+  }
+
   .icon-box {
     display: none;
     visibility: hidden;
